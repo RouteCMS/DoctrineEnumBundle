@@ -1,6 +1,6 @@
 # DoctrineEnumBundle
 
-Provides support of **ENUM type** for Doctrine in Symfony applications.
+Provides support of **ENUM type** for Doctrine.
 
 [![Scrutinizer Quality Score](https://img.shields.io/scrutinizer/g/fre5h/DoctrineEnumBundle.svg?style=flat-square)](https://scrutinizer-ci.com/g/fre5h/DoctrineEnumBundle/)
 [![Build Status](https://img.shields.io/travis/fre5h/DoctrineEnumBundle/master.svg?style=flat-square)](https://travis-ci.org/fre5h/DoctrineEnumBundle)
@@ -25,14 +25,13 @@ Provides support of **ENUM type** for Doctrine in Symfony applications.
 
 ```composer req fresh/doctrine-enum-bundle='~6.1'```
 
-Registration in Kernel for Symfony 4.0 is done automatically.
 
 ##### Choose the appropriate version if you need
 
-| Bundle Version (X.Y.Z) | PHP             | Symfony            | Doctrine DBAL | Comment             |
-|:----------------------:|:---------------:|:------------------:|:-------------:|:--------------------|
-| 6.1.*                  | >= 7.1.3        | >= 4.0             | >= 2.6        | **Current version** |
-| 5.3.*                  | >= 5.6, <= 7.1  | >= 3.2, <= 3.4     | >= 2.5        | *Bug fix support*   |
+| Bundle Version (X.Y.Z) | PHP             |  Doctrine DBAL | Comment             |
+|:----------------------:|:---------------:|:--------------:|:--------------------|
+| 6.1.*                  | >= 7.1.3        |  >= 2.6        | **Current version** |
+| 5.3.*                  | >= 5.6, <= 7.1  |  >= 2.5        | *Bug fix support*   |
 
 ## Using
 
